@@ -1,5 +1,4 @@
 <div align="center">
-  <img width="100%" alt="College Insider Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
   <h1>🎓 College Insider</h1>
   <p><strong>A platform bridging the gap between aspiring students and experienced mentors.</strong></p>
 </div>
