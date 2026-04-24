@@ -1,0 +1,93 @@
+import { Mentor } from '../types';
+
+export const MOCK_MENTORS: Mentor[] = [
+  {
+    id: '1',
+    name: 'Ananya Sharma',
+    college: 'IIT Bombay',
+    branch: 'Computer Science',
+    rating: 4.9,
+    price: 799,
+    duration: 30,
+    avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+    tags: ['DSA', 'Competitive Programming', 'Software Engineering'],
+    isVerified: true,
+    isTopMentor: true,
+    rank: 'AIR 45',
+    cgpa: 9.8,
+    bio: 'Pursuing CSE at IITB. Passionate about algorithms and system design. Helped 50+ students crack JEE Advanced.',
+    availability: ['Mon 4:00 PM', 'Wed 6:00 PM', 'Sat 10:00 AM'],
+    reviews: [
+      { id: 'r1', studentName: 'Aditya K.', rating: 5, comment: 'Amazing session. Cleared all my doubts about branch selection.', date: '2 days ago' }
+    ]
+  },
+  {
+    id: '2',
+    name: 'Rohan Verma',
+    college: 'IIT Delhi',
+    branch: 'Electrical Engineering',
+    rating: 4.8,
+    price: 649,
+    duration: 30,
+    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+    tags: ['Physics', 'Gate Prep', 'Circuit Design'],
+    isVerified: true,
+    rank: 'AIR 112',
+    cgpa: 9.2,
+    bio: 'JEE Advanced topper and Electrical nerd. Can help you with core subjects and college life balance.',
+    availability: ['Tue 5:00 PM', 'Fri 8:00 PM'],
+    reviews: []
+  },
+  {
+    id: '3',
+    name: 'Muskan Khan',
+    college: 'BITS Pilani',
+    branch: 'Electronics',
+    rating: 4.9,
+    price: 699,
+    duration: 30,
+    avatarUrl: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop',
+    tags: ['BITSAT', 'Electronics', 'Startup Culture'],
+    isVerified: true,
+    isTopMentor: true,
+    rank: 'BITSAT 380',
+    cgpa: 8.9,
+    bio: 'Life at BITS is unique. I can guide you through the zero-attendance policy and entrepreneurship opportunities.',
+    availability: ['Sun 11:00 AM', 'Mon 8:00 PM'],
+    reviews: []
+  },
+  {
+    id: '4',
+    name: 'Arpit Chauhan',
+    college: 'IIT Kharagpur',
+    branch: 'Mechanical',
+    rating: 4.7,
+    price: 599,
+    duration: 30,
+    avatarUrl: 'https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?w=400&h=400&fit=crop',
+    tags: ['GATE', 'Mechanical', 'Robotics'],
+    isVerified: true,
+    rank: 'AIR 520',
+    cgpa: 8.5,
+    bio: 'Mechanical enthusiast. Active in robotics club. Can guide on research roles and core mechanical placements.',
+    availability: ['Thu 7:00 PM'],
+    reviews: []
+  },
+  {
+    id: '5',
+    name: 'Sneha Reddy',
+    college: 'NIT Trichy',
+    branch: 'Production Engineering',
+    rating: 4.6,
+    price: 499,
+    duration: 30,
+    avatarUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop',
+    tags: ['CAT Prep', 'Consulting', 'Operations'],
+    isVerified: true,
+    rank: 'AIR 800 (JEE Main)',
+    cgpa: 9.5,
+    bio: 'Balancing core engineering with consulting prep. Can talk about shifting to non-core roles.',
+    availability: ['Sat 4:00 PM', 'Sun 4:00 PM'],
+    reviews: []
+  }
+];
